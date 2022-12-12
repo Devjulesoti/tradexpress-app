@@ -1,0 +1,95 @@
+.left-side {
+  background-color: #7c20be;
+  padding-bottom: 50px;
+  text-align: left;
+  color: white;
+  padding-left: 80px;
+}
+.rings-bgrc {
+  position: absolute;
+  z-index: 1;
+  top: 30px;
+  right: 0px;
+  /* width: 60%; */
+}
+.rings-bgrc img {
+  width: 71%;
+}
+
+.section1-text {
+  width: 50%;
+  padding-top: 80px;
+  position: relative;
+  z-index: 2;
+}
+.section1-text h1 {
+  color: white;
+}
+.section1-text p {
+  margin-top: 30px;
+  width: 65%;
+}
+.getstarted-btn {
+  display: block;
+  margin-bottom: 30px;
+  width: 56%;
+  text-decoration: none;
+  text-align: center;
+  color: #7c20be;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: azure;
+}
+.google-btn {
+  margin-left: 10px;
+}
+.download-btn {
+  display: flex;
+  justify-content: center;
+  width: 56%;
+  gap: 10px;
+}
+.download-btn img {
+  /* width: 30%; */
+  width: 100px;
+}
+
+@media (max-width: 767px) {
+  .left-side {
+    padding: 10px;
+  }
+  .section1-text h1 {
+    width: 100%;
+  }
+  .section1-text {
+    width: 100%;
+  }
+  .section1-text p {
+    width: 100%;
+  }
+  .getstarted-btn {
+    margin: 0 auto;
+    width: 45%;
+    max-width: 300px;
+  }
+
+  .download-btn {
+    display: flex;
+    /* text-align: center; */
+    justify-content: center;
+    gap: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .download-btn img {
+    width: 20%;
+  }
+  .rings-bgrc img {
+    width: 80%;
+  }
+  .rings-bgrc {
+    top: 15%;
+    /* right: 2%; */
+  }
+}

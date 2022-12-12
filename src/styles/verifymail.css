@@ -1,0 +1,46 @@
+.verifymail-section {
+  background-color: #eeedee;
+  width: 60%;
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 50px 70px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px #dbd7db;
+}
+.first-text{
+    font-size: 22px;
+    font-weight: 400;
+}
+.verifymail-section img{
+    width: 30%;
+}
+.second-text{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 50px 0px;
+
+}
+.click-text {
+  text-decoration: none;
+  color: #7c20bf;
+}
+.login-btn {
+  padding: 10px 18%;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 5px;
+  color: white;
+  background-color: #7c20bf;
+  max-width: 450px;
+}
+.account {
+  margin-top: 50px;
+  font-size: 12px;
+}
+@media (max-width: 500px) {
+  .verifymail-section {
+    width: 100%;
+    margin: 0 auto;
+  }
+}

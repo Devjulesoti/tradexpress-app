@@ -1,0 +1,81 @@
+.getstarted-section {
+  background-color: #eeedee;
+  width: 70%;
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px 5px;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 5px 5px #dbd7db;
+}
+
+.option-div {
+  margin-top: 50px;
+}
+
+.option-div .individual-get {
+  background-color: white;
+  padding: 8px 16%;
+  border-radius: 20px;
+  margin-right: -1%;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.option-div .business-get {
+  background-color: #e4e4e4;
+  padding: 8px 16%;
+  border-radius: 20px;
+  margin-left: -6%;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.getstarted-form {
+  margin-top: 30px;
+}
+
+.getstarted-form input {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 15px;
+  width: 82%;
+  max-width: 450px;
+  font-size: 12px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+}
+.tandc {
+  width: 82%;
+  max-width: 380px;
+  text-align: center;
+  margin: 30px auto;
+  font-size: 14px;
+  font-weight: 400;
+}
+.tc-text, .click-text {
+  text-decoration: none;
+  color: #7c20bf;
+}
+.login-btn {
+  padding: 10px 36%;
+  text-decoration: none;
+  font-size: 12px;
+  border-radius: 5px;
+  color: white;
+  background-color: #7c20bf;
+  max-width: 450px;
+}
+.account{
+    margin-top: 50px;
+    font-size: 12px;
+}
+@media(max-width: 500px){
+  .getstarted-section {
+    width: 100%;
+    margin: 0 auto;
+
+  }
+
+}

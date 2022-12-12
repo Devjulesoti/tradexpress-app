@@ -1,0 +1,74 @@
+.section6 > h5{
+    margin-top: 20px;
+}
+
+
+.section6-div{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.eachtop-div {
+  position: relative;
+  width: 80%;
+  max-width: 300px;
+  margin: auto;
+}
+.purple {
+  width: 100%;
+}
+.quote {
+  width: 30px;
+  position: absolute;
+  top: 24%;
+  left: 0%;
+  padding-right: 5px;
+}
+.eachtop-div p {
+  position: absolute;
+  top: 25%;
+  left: 0%;
+  color: white;
+  width: 300px;
+  font-size: 12px;
+  text-align: center;
+  margin-left: 10px;
+}
+.eachbottom-div {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  
+}
+.eachbottom-div img {
+  width: 50px;
+
+}
+.eachbottom-div h6{
+    margin-bottom: 2px;
+
+}
+.eachbottom-div p{
+    font-size: 12px;
+    font-weight:400;
+}
+.bottom-text{
+    text-align: left;
+}
+
+@media(min-width: 989px){
+    .section6-div{
+        flex-direction: row;
+        gap: 20px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .eachtop-div {
+        width: 100%;
+    }
+    
+}

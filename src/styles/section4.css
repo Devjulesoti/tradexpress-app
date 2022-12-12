@@ -1,0 +1,70 @@
+.sell-div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+.left-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.no1 {
+  display: inline-block;
+  border: 3px solid purple;
+  color: purple;
+  padding: 1px 8px;
+  box-shadow: 5px 5px 5px purple;
+  margin-right: 20px;
+  margin-left: 10px;
+  font-weight: 900;
+  border-radius: 6px;
+  position: sticky;
+}
+.sec4-top {
+  padding-top: 50px;
+}
+.display-btn:hover {
+  background-color: #7c20bf;
+  color: white;
+  transition:  1s ;
+  -webkit-transition:  1s ;
+  -moz-transition:  1s ;
+  -ms-transition:  1s ;
+  -o-transition:  1s ;
+}
+.sec4-top p {
+  text-align: center;
+  font-size: 14px;
+  padding: 10px 70px;
+}
+.sell-div img {
+  width: 30%;
+}
+.left-text {
+  text-align: left;
+}
+.left-text p {
+  font-size: 12px;
+  width: 90%;
+}
+.deposit-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+}
+
+@media (max-width: 900px) {
+  .sell-div {
+    padding: 20px 10%;
+  }
+  .no1 {
+    position: sticky;
+    margin-bottom: 70px;
+  }
+  .sec4-top h4 {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,53 @@
+.navbar1 {
+  background-color: #7c20be;
+  width: 100%;  
+}
+
+.me-auto{
+  gap: 27px;
+  margin-left: 42%;
+
+}
+.getstarted{
+  text-decoration: none;
+  color: #7c20be;
+  background: white;
+  padding: 5px 18px;
+  font-size: 14px;
+  border-radius: 5px;
+
+
+}
+.login{
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  background: transparent;
+  padding: 5px 28px;
+  border-radius: 5px;
+  
+}
+.instant, .learn{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  padding-top: 8px;
+}
+@media(max-width: 992px){
+  .me-auto{
+    gap: 18px;
+    margin-left: 0;
+  
+  }
+  .getstarted, .login{
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+
+  }
+  .instant, .learn{
+    font-size: 20px;
+  }
+}

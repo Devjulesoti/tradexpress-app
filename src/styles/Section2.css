@@ -1,0 +1,35 @@
+.section2{
+    padding: 10px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #C5C0C0;
+    background-color: #EDE9EF;
+    /* width: 30%; */
+    font-weight: 500;
+
+}
+.top-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+.each-rate{
+    padding: 0px 20px;
+    border-right: 1px solid #C5C0C0;
+}
+@media(max-width: 900px){
+    .section2{
+        flex-direction: column;
+        gap: 10px;
+        display: block;
+       
+    }
+    .each-rate{
+        border: none;
+        background-color: lightblue;
+    }
+    .each-rate p{
+        text-align: center;
+    }
+}
